@@ -1,6 +1,6 @@
 SELECT * FROM employees;
 
-/* Al multiplicar un numero por null este se volvera null no importa */
+/* Al multiplicar un numero por null este se volvera null */
 SELECT LAST_NAME, 12 * SALARY * COMMISSION_PCT
 FROM employees;
 
